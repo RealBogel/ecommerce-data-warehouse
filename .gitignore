@@ -1,1 +1,24 @@
+# Raw datasets
+data/raw/*
+
+# Keep folder in Git
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
 .venv/
+venv/
+
+# Environment variables / secrets
+.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
